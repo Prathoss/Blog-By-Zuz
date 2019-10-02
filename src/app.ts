@@ -1,6 +1,4 @@
 import express = require('express');
-import { Request, Response } from 'express';
-import jwt = require('jsonwebtoken');
 import * as articlesController from './controllers/articleController';
 import * as authController from './controllers/authController';
 //import * as adminController from './controllers/adminController';
